@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20220615/pngtree-roughly-outlined-world-map-on-black-background-geography-planet-social-photo-image_37235210.jpg');
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+#country-details-container {
+    width: 90%; 
+    max-width: 450px; 
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20220308/pngtree-roughly-outlined-world-map-on-black-background-social-education-navigation-photo-image_35537472.jpg');
+    color: white;
+    border: 1px solid white;
+}
+
+#country-details-container img {
+    height: auto; 
+    width: 100%;
+    border-radius: 5px;
+}
+
+#country-details p {
+    font-size: 18px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: start;
+}
+
+#country-details h2 {
+    font-size: 2.4rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: violet;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin: 0 auto; 
+    font-size: 1.4rem;
+    display: block; 
+}
+
+
+
+/* For Laptops */
+@media (max-width: 1024px) {
+    .heading {
+        font-size: 2.8rem;
+    }
+
+    #country-details-container {
+        padding: 18px;
+    }
+
+    #country-details h2 {
+        font-size: 2.2rem;
+    }
+
+    #country-details p {
+        font-size: 17px;
+    }
+
+    button {
+        font-size: 1.3rem;
+    }
+}
+
+/* For Tablets */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    #country-details-container {
+        padding: 15px;
+    }
+
+    #country-details h2 {
+        font-size: 2rem;
+    }
+
+    #country-details p {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 1.2rem;
+        padding: 8px 16px;
+    }
+}
+
+/* For Phones */
+@media (max-width: 480px) {
+    .heading {
+        font-size: 2rem;
+    }
+
+    #country-details-container {
+        margin: 20px auto;
+        padding: 12px;
+    }
+
+    #country-details h2 {
+        font-size: 1.8rem;
+    }
+
+    #country-details p {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 6px 12px;
+    }
+}
